@@ -22,7 +22,7 @@ struct MyWebview: UIViewRepresentable {
         
         //string자체가 옵셔널이라 언래핑한다.
         //self.urlToLoad 가 비어있다면 return WKWebview를 리턴 있다면 아래쪽에넣기.
-        // unwrapping
+        // unwrapping (스위프트 기초문법 05번)
         guard let url = URL(string: self.urlToLoad) else {
             return WKWebView()
         }
