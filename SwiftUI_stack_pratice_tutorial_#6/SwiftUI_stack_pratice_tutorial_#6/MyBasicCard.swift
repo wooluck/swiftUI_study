@@ -21,7 +21,7 @@ struct MyBasicCard: View {
                     .opacity(0)
 //                Rectangle()
 //                    .frame(height: 0)
-                Text("haha")
+                Text("Wake up")
                     .fontWeight(.bold)
                     .font(.system(size: 23))
                     .foregroundColor(Color.white)
@@ -29,7 +29,7 @@ struct MyBasicCard: View {
                 Spacer()
                     .frame(height: 5)
                 
-                Text("haha")
+                Text("8 AM")
                     .foregroundColor(Color.white)
                 
             }

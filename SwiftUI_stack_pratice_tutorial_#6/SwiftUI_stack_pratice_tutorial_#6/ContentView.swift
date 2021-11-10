@@ -12,6 +12,7 @@ struct ContentView: View {
     //위 상단에 붕뜨는 칸이 네비게이션타이틀 칸인데 . 그걸 없애기 위해 하나 만듬.
     @State var isNavigationBarHidden: Bool = false
     
+    
     var body: some View {
         
         NavigationView {

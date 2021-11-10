@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3B1937273B4B8600ED546A /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B1936273B4B8600ED546A /* MyTabView.swift */; };
+		1B3B1939273B4F7700ED546A /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B1938273B4F7700ED546A /* MyView.swift */; };
+		1B3B193B273B5C7B00ED546A /* MyCustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B193A273B5C7B00ED546A /* MyCustomTabView.swift */; };
 		1BB412B82734CF8100C3BA11 /* SwiftUI_stack_pratice_tutorial__6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB412B72734CF8100C3BA11 /* SwiftUI_stack_pratice_tutorial__6App.swift */; };
 		1BB412BA2734CF8100C3BA11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB412B92734CF8100C3BA11 /* ContentView.swift */; };
 		1BB412BC2734CF8500C3BA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB412BB2734CF8500C3BA11 /* Assets.xcassets */; };
@@ -18,9 +21,14 @@
 		1BB412CE2738E12E00C3BA11 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB412CD2738E12D00C3BA11 /* MyNavigationView.swift */; };
 		1BB412D0273914A800C3BA11 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB412CF273914A800C3BA11 /* MyProfileView.swift */; };
 		1BB412D2273A185800C3BA11 /* MyCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB412D1273A185800C3BA11 /* MyCircleImageView.swift */; };
+		1BB412D4273A3BCE00C3BA11 /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB412D3273A3BCE00C3BA11 /* MyGeometryReader.swift */; };
+		1BB412D6273AB4C800C3BA11 /* MyGeometryReaderVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB412D5273AB4C800C3BA11 /* MyGeometryReaderVStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B3B1936273B4B8600ED546A /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		1B3B1938273B4F7700ED546A /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		1B3B193A273B5C7B00ED546A /* MyCustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabView.swift; sourceTree = "<group>"; };
 		1BB412B42734CF8100C3BA11 /* SwiftUI_stack_pratice_tutorial_#6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI_stack_pratice_tutorial_#6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB412B72734CF8100C3BA11 /* SwiftUI_stack_pratice_tutorial__6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_stack_pratice_tutorial__6App.swift; sourceTree = "<group>"; };
 		1BB412B92734CF8100C3BA11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +41,8 @@
 		1BB412CD2738E12D00C3BA11 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
 		1BB412CF273914A800C3BA11 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
 		1BB412D1273A185800C3BA11 /* MyCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleImageView.swift; sourceTree = "<group>"; };
+		1BB412D3273A3BCE00C3BA11 /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
+		1BB412D5273AB4C800C3BA11 /* MyGeometryReaderVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReaderVStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,11 @@
 				1BB412D1273A185800C3BA11 /* MyCircleImageView.swift */,
 				1BB412BB2734CF8500C3BA11 /* Assets.xcassets */,
 				1BB412BD2734CF8500C3BA11 /* Preview Content */,
+				1BB412D3273A3BCE00C3BA11 /* MyGeometryReader.swift */,
+				1BB412D5273AB4C800C3BA11 /* MyGeometryReaderVStack.swift */,
+				1B3B1936273B4B8600ED546A /* MyTabView.swift */,
+				1B3B1938273B4F7700ED546A /* MyView.swift */,
+				1B3B193A273B5C7B00ED546A /* MyCustomTabView.swift */,
 			);
 			path = "SwiftUI_stack_pratice_tutorial_#6";
 			sourceTree = "<group>";
@@ -159,14 +174,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BB412D2273A185800C3BA11 /* MyCircleImageView.swift in Sources */,
+				1BB412D6273AB4C800C3BA11 /* MyGeometryReaderVStack.swift in Sources */,
 				1BB412D0273914A800C3BA11 /* MyProfileView.swift in Sources */,
 				1BB412C62734CFC000C3BA11 /* MyProjectCard.swift in Sources */,
 				1BB412C82735274300C3BA11 /* MyBasicCard.swift in Sources */,
+				1BB412D4273A3BCE00C3BA11 /* MyGeometryReader.swift in Sources */,
 				1BB412BA2734CF8100C3BA11 /* ContentView.swift in Sources */,
 				1BB412CA2738C7AF00C3BA11 /* MyCard.swift in Sources */,
 				1BB412B82734CF8100C3BA11 /* SwiftUI_stack_pratice_tutorial__6App.swift in Sources */,
 				1BB412CC2738CCDE00C3BA11 /* MyList.swift in Sources */,
+				1B3B1937273B4B8600ED546A /* MyTabView.swift in Sources */,
+				1B3B193B273B5C7B00ED546A /* MyCustomTabView.swift in Sources */,
 				1BB412CE2738E12E00C3BA11 /* MyNavigationView.swift in Sources */,
+				1B3B1939273B4F7700ED546A /* MyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
