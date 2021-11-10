@@ -18,14 +18,14 @@ struct MyView : View {
         ZStack{
             
             bgColor
-            .edgesIgnoringSafeArea(.all)
+//            .edgesIgnoringSafeArea(.all)
             
             Text(title)
                 .font(.largeTitle)
                 .fontWeight(.black)
                 .foregroundColor(Color.white)
             
-        }
+        }.animation(.none)
     }
 }
 
