@@ -11,6 +11,7 @@
 		1B9303F527422B0500DB88D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9303F427422B0500DB88D1 /* ContentView.swift */; };
 		1B9303F727422B0900DB88D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9303F627422B0900DB88D1 /* Assets.xcassets */; };
 		1B9303FA27422B0900DB88D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9303F927422B0900DB88D1 /* Preview Assets.xcassets */; };
+		1BC416B9274551C70077FDBB /* MyFilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC416B8274551C70077FDBB /* MyFilteredList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1B9303F427422B0500DB88D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B9303F627422B0900DB88D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B9303F927422B0900DB88D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BC416B8274551C70077FDBB /* MyFilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFilteredList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1B9303F227422B0500DB88D1 /* SwiftUI_Picker_tutorial__11App.swift */,
 				1B9303F427422B0500DB88D1 /* ContentView.swift */,
+				1BC416B8274551C70077FDBB /* MyFilteredList.swift */,
 				1B9303F627422B0900DB88D1 /* Assets.xcassets */,
 				1B9303F827422B0900DB88D1 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC416B9274551C70077FDBB /* MyFilteredList.swift in Sources */,
 				1B9303F527422B0500DB88D1 /* ContentView.swift in Sources */,
 				1B9303F327422B0500DB88D1 /* SwiftUI_Picker_tutorial__11App.swift in Sources */,
 			);
