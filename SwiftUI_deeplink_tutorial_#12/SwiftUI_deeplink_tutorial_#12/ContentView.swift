@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var selectedTab = TabIdentifier.todos
+    
     var body: some View {
         Text("")
          

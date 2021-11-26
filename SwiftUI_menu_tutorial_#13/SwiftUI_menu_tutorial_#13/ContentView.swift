@@ -23,7 +23,7 @@ struct ContentView: View {
                     .font(.system(size: 60))
                     .bold()
                 
-                Text("우측 상단에 땡땡땡을 눌러주세요!")
+                Text("우측 상단에 Button Click!")
                     .font(.title2)
                     .fontWeight(.bold)
                 Spacer()
@@ -75,6 +75,7 @@ struct ContentView: View {
                                     Label("파일 모두 삭제", systemImage: "trash")
                                 }
                             }
+                            
                             Picker(selection: $selected, label: Text("애완동물 선택")) {
                                 ForEach(myPets.indices, id:\.self, content: {
                                     index in
