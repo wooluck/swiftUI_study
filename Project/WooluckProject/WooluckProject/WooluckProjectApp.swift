@@ -11,7 +11,7 @@ import SwiftUI
 struct WooluckProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(tabIndex: .home)
         }
     }
 }

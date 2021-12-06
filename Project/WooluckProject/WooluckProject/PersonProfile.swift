@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct PersonProfile: View {
+    
+    @State var heartButton: Bool = false
+    
     var body: some View {
         VStack {
             HStack (spacing: 10) {
                 Image("rabbit_1")
                     .resizable()
-                    .frame(width: 50, height: 50)
-                    .cornerRadius(40)
+                    .frame(width: 40, height: 40)
+                    .cornerRadius(30)
                     .shadow(color: .gray, radius: 10, x: 5, y: 5)
                 Text("Woo Luck")
                     .bold()
@@ -34,8 +37,30 @@ struct PersonProfile: View {
                         .cornerRadius(30)
                     
                     HStack (spacing: 10){
+                        
+                        if heartButton {
+                            Image(systemName: "suit.heart.fill")
+                                .font(.system(size: 25))
+                                .foregroundColor(.red)
+                                .onTapGesture {
+                            self.heartButton.toggle()
+                        }
+                        } else {
                         Image(systemName: "suit.heart")
-                            .font(.system(size: 25))
+                                .font(.system(size: 25))
+                                .onTapGesture {
+                            self.heartButton.toggle()
+                        }
+                        }
+//                        Button  {
+//                            print("heart_Button")
+//                        } label: {
+//
+//                                .font(.system(size: 25))
+//                        }
+
+                        
+                            
                         Image(systemName: "message")
                             .font(.system(size: 25))
                         Image(systemName: "paperplane")

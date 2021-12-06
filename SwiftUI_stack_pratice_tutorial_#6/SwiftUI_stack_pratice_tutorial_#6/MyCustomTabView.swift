@@ -128,14 +128,15 @@ struct MyCustomTabView: View {
                         .background(Color.white)
 
                     }
-                } // HStack
+                }
                 Rectangle()
-                    .foregroundColor(Color.white)
+                    .foregroundColor(Color.blue)
                     .frame(height: UIApplication.shared.windows.first?.safeAreaInsets.bottom == 0 ? 0 : 11)
                 
             }
             
-        }.edgesIgnoringSafeArea(.all)
+        }
+        .edgesIgnoringSafeArea(.all)
         
     }
 }
